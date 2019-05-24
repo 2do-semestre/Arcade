@@ -19,6 +19,38 @@ namespace ARCADE_MASTER
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            tabControl2.Visible = true;
+        }
+        public void menu()
+        {
+            tabControl2.Visible = false;
+        }
+        private void BtnMenu4_Click(object sender, EventArgs e)
+        {
+            menu();
+        }
+        private void BtnMenu3_Click(object sender, EventArgs e)
+        {
+            menu();
+        }
+
+        private void BtnMenu2_Click(object sender, EventArgs e)
+        {
+            menu();
+        }
+
+        private void BtnMenu1_Click(object sender, EventArgs e)
+        {
+            menu();
+        }
+
+        private void BtnAjustesMenu_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void BtnScoresMenu_Click(object sender, EventArgs e)
+        {
 
         }
     }
